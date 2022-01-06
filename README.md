@@ -66,6 +66,8 @@ If you want to transfer your save from the **Android pre-forever versions,** you
 * In your browser go to `localhost:8000` and play the game!
 * If there is no sound, reload the page and try clicking/interacting with the canvas (black box). Sound is prevented from autoplaying in Chrome until the user interacts
 
+For further documentation and platform-specific details on building the WASM target, see the wiki: https://github.com/mattConn/Sonic-Decompilation-WASM/wiki 
+
 ## Other platforms:
 Currently the only supported platforms are the ones listed above, however the backend uses libogg, libvorbis & SDL2 to power it, so the codebase is very multiplatform.
 if you've cloned this repo and ported it to a platform not on the list or made some changes you'd like to see added to this repo, submit a pull request and it'll most likely be added
