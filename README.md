@@ -63,6 +63,7 @@ If you want to transfer your save from the **Android pre-forever versions,** you
 * Make sure your legally-obtained `Data.rsdk` is in this directory as it gets compiled in
 * Now compile by running `make wasm`
 * Go into the newly created `wasm` directory and run a server. I usually run `python -m http.server`, which will serve locally on port 8000
+* For Linux It's `python3 -m http.server`
 * In your browser go to `localhost:8000` and play the game!
 * If there is no sound, reload the page and try clicking/interacting with the canvas (black box). Sound is prevented from autoplaying in Chrome until the user interacts
 
